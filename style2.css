@@ -1,0 +1,143 @@
+    @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        background: #1e2430;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        font-variant: small-caps;
+    }
+    
+    .mainnav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        border-bottom: 1px solid white;
+        margin: 25px 50px;
+    }
+    
+    .name {
+        font-size: 22px;
+        color: yellow;
+    }
+    
+    .nav-items ul {
+        display: flex;
+    }
+    
+    .nav-items li {
+        list-style: none;
+        padding: 25px;
+    }
+    
+    .nav-items a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .section {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .text {
+        position: absolute;
+        top: 40%;
+        left: 15%;
+    }
+    
+    .text h2 {
+        color: yellowgreen;
+    }
+    
+    .text span {
+        background: yellow;
+        color: black;
+    }
+    
+    .box {
+        border: 1px solid white;
+        width: 600px;
+        height: 260px;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        border-radius: 20px;
+    }
+    
+    .second {
+        border: 1px solid white;
+        height: 40px;
+        border-radius: 20px;
+    }
+    
+    .second ul {
+        display: flex;
+    }
+    
+    .second li {
+        list-style: none;
+    }
+    
+    .second a {
+        padding: 45px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .content {
+        display: flex;
+        padding: 15px;
+    }
+    
+    .content img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px;
+        position: relative;
+        bottom: 0;
+        top: 85%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .social-media li {
+        list-style: none;
+    }
+    
+    .team h3 {
+        color: yellowgreen;
+    }
+    
+    .team li {
+        padding: 10px;
+    }
+    
+    .links h3 {
+        color: yellowgreen;
+    }
+    
+    .links p {
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .links img {
+        width: 50px;
+        height: 50px;
+    }
